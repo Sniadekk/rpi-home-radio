@@ -4,10 +4,14 @@ sudo apt-get upgrade
 sudo apt-get install sqlite3
 # clone needed repositories
 git clone https://github.com/Sniadekk/home-fm-server
-# git clone https://github.com/Sniadekk/home-fm-client
 # let's just download minified client app without doing all the heavy work on rpi
 git clone https://github.com/markondej/fm_transmitter.git
 cd home-fm-server
+# copy client files into client directory which is hosted by home-fm-server
+mkdir static
+cd static
+mkdir client
+cp -a ../../client ./client
 # install rust
 curl https://sh.rustup.rs -sSf | sh
 # set nightly toolchain
