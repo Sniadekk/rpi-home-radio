@@ -11,19 +11,19 @@ cd home-fm-server
 mkdir static
 cd static
 mkdir client
-cp -a ../../client ./client
+cp -a ../../client ./
 # install rust
 curl https://sh.rustup.rs -sSf | sh
 # set nightly toolchain
 rustup default nightly
 # install cargo tools to run migration
-cargo install diesel_cli
+# cargo install diesel_cli
 # build the server
 cargo build
 # run migration
-cargo install basic-http-server
-diesel setup
-diesel run migration
+#cargo install basic-http-server
+#diesel setup
+#diesel run migration
 # download fm_transmitter lib
 cd ../fm_transmitter
 # make it
