@@ -1,2 +1,4 @@
-# rpi-home-radio
-This application provides both server and spotify like client for your inhouse radio transmitter.
+<p align="center">
+  <img width="375" height="375" src="https://github.com/Sniadekk/rusty-radio/blob/master/logo.png">
+</p>
+
