@@ -4,7 +4,7 @@ sudo apt-get upgrade
 sudo apt-get install sqlite3
 sudo apt-get install nginx -y --fix-missing
 sudo apt-get install wget
-sudo apt-get install screen
+sudo apt-get install libsndfile1-dev
 sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
 
