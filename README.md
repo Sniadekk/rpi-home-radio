@@ -8,6 +8,14 @@ Give your old radios a second life and turn them into on demand music players!
 
 Rusty radio is an application that lets you broadcast your favourite songs via radio, so you can listen it on every device with fm receiver.
 
+## What features does it have?
+* Persist all of the previously played songs in database, making them easily accessible in the future 
+* While nothing is currently scheduled, it plays random songs saved in the database
+* Schedule songs and have the queue synchronized across all connected devices
+* Download songs from youtube
+* Fetch your favourite songs from Spotify, so you can always easily access songs you currently like to listen
+
+
 ## Installation
 
 ```
