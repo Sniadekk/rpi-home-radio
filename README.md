@@ -6,14 +6,14 @@ Give your old radios a second life and turn them into on demand music players!
 
 ## What it is?
 
-Rusty radio is an application that lets you broadcast your favourite songs via radio, so you can listen it on every device with fm receiver.
+Rusty radio is an application that lets you broadcast your favourite songs via radio, so you can listen it on every device with fm receiver. All it takes is a raspberry pi, wire, few minutes for installation and some radio device.
 
 ## What features does it have?
-* Persist all of the previously played songs in database, making them easily accessible in the future 
-* While nothing is currently scheduled, it plays random songs saved in the database
-* Schedule songs and have the queue synchronized across all connected devices
-* Download songs from youtube
-* Fetch your favourite songs from Spotify, so you can always easily access songs you currently like to listen
+* Persist all of the previously played songs in database, making them easily accessible in the future.
+* While nothing is currently scheduled, it plays random songs saved in the database.
+* Schedule songs and have the queue synchronized across all connected devices.
+* Download songs from youtube.
+* Fetch your favourite songs from Spotify, so you can always easily access songs you currently like to listen.
 
 
 ## Installation
@@ -25,7 +25,7 @@ chmod +x ./install.sh
 ```
 and that should be it!
 <p>Be patient. Compiling all of the code might take some time on RPi</p>
-
+<p>If there is anything wrong with the installation script - please inform me or submit a PR!</p>
 ## Getting started
 
 In order to turn on the application simply go to the rusty-radio directory and 
@@ -45,6 +45,9 @@ Simply add DNS record in your local network pointing `rusty-radio` to your RPi I
 ## Legal notes
 In a lot of countries broadcasting without permission is restricted, thus I do not take responsibility for harmful actions done with code made by me.
 Using small antennas, not capable of broadcasting signal strong enough to leave our property should not cause any harm to others, so please do not use stronger hardware than you need.
+
+## Contributing
+I would love to hear any suggestions about improvements and I would be even more happy for anyone willing to help and contribute, thus pull requests and issues are welcome!
 
 ## References
 Huge thanks to [miegl](https://github.com/miegl), creator of the [PiFmAdv](https://github.com/miegl/PiFmAdv) library without which the rusty-radio wouldn't exist!
